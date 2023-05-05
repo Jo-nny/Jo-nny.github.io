@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodStats</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo"> FS > </a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                </li>
+                <li><a href="resources.html">RESOURCE CENTRE ></a></li>
+                <li><a href="about.html">ABOUT PAGE ></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <h1>FOODSTATS</h1>
+            <h2 class="slogan">Data Visualisations For Food-Related Statistics.</h2>
+            <div class="button-grid">
+                <a class="button" href="#" onclick="fetchData('snacks', 'Caloric information for common snacks.', 1)">CALORIES OF SNACKS ></a>
+                <a class="button" href="#" onclick="fetchData('sodas', 'Top drinks with the heighest suger content', 2)">SUGAR IN SODAS ></a>
+                <a class="button" href="#" onclick="fetchData('Chips', 'Chips with the heighest calories', 1)">CALORIES IN CHIPS ></a>
+                <a class="button" href="#" onclick="fetchData('fruits', 'Amount of calories per 100G of Organic Fruit', 1)">CALORIES IN FRUITS ></a>
+                <a class="button" href="#" onclick="fetchData('Meats', 'Protein Content per 100G', 3)">PROTEIN IN MEATS ></a>
+                <a class="button" href="#" onclick="fetchData('Candies', 'Grams of fat per 100g', 4)">FATS IN CANDIES ></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3>FOODSTATS</h3>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 FoodStats. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
